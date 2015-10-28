@@ -12,4 +12,4 @@ in _host_ network mode (i.e. with the `--net=host` parameter).
 
 The image is based on Debian; CentOS-based image is also available
 just to showcase that such is possible, but it is otherwise a
-stripped-down version missing some of the tools.
+stripped-down version missing many of the tools.
