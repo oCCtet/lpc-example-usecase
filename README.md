@@ -8,6 +8,10 @@ in the Developer's Manual.
 To receive (multicast) streams, the container should  be run
 in _host_ network mode (i.e. with the `--net=host` parameter).
 
+The container should be run in interactive mode (i.e. with the
+`-ti` parameter); a shell of a non-privileged user is provided.
+To execute privileged commands, use `gosu root <cmd>`.
+
 # Operating systems #
 
 The image is based on Debian; CentOS-based image is also available
