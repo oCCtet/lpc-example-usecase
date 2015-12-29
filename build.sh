@@ -5,7 +5,7 @@
 
 set -e
 
-GOSU_RELEASE="1.6"
+GOSU_RELEASE="1.7"
 TARGET_ARCH="$(dpkg --print-architecture)"
 
 rm -f debian/gosu centos/gosu
